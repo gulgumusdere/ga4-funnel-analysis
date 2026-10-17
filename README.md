@@ -17,6 +17,8 @@ Funnel steps: session start → product view → add to cart → begin checkout 
 
 The query is in [`ga4-funnel.sql`](ga4-funnel.sql). The result feeds a 10-sheet Tableau Public dashboard with KPI cards and filters.
 
+**Run it yourself:** the dataset is public, so the query runs as-is in the [BigQuery console](https://console.cloud.google.com/bigquery) with any Google account (free sandbox).
+
 ## Key findings
 
 - **78%** of sessions drop off between session start and product view.
